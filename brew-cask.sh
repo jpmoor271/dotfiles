@@ -2,55 +2,39 @@
 
 
 # to maintain cask ....
-#     brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup`
-
+brew update && brew cleanup
 
 # Install native apps
 
-brew install caskroom/cask/brew-cask
-# brew tap caskroom/versions
+brew tap homebrew/cask-cask
 
-# daily
-brew cask install spectacle
-brew cask install dropbox
-brew cask install gyazo
 brew cask install 1password
-brew cask install rescuetime
-# brew cask install flux
-
-# dev
+brew cask install agenda
+brew cask install alfred
+brew cask install backblaze
+brew cask install charles
+brew cask install corretto
+brew cask install dash
+brew cask install docker
+brew cask install dropbox
+brew cask install encryptme
+brew cask install fantastical
+brew cask install homebrew/cask-drivers/garmin-express
+brew cask install gitkraken
+brew cask install google-chrome
 brew cask install iterm2
-brew cask install sublime-text
-brew cask install imagealpha
-brew cask install imageoptim
-
-# fun
-brew cask install limechat
-# brew cask install miro-video-converter
-# brew cask install horndis               # usb tethering
-
-# browsers
-# brew cask install google-chrome-canary
-# brew cask install firefoxnightly
-# brew cask install webkit-nightly
-# brew cask install chromium
-# brew cask install torbrowser
-
-# less often
-brew cask install disk-inventory-x
-brew cask install screenflow
-brew cask install vlc
-brew cask install gpgtools
-brew cask install licecap
-# brew cask install utorrent
-
-brew cask install spotify
-
-brew tap caskroom/fonts 
-brew cask install font-fira-code
-
-
-# Not on cask but I want regardless.
-
-# File Multi Tool 5
-# Phosphor
+brew cask install jetbrains-toolbox
+brew cask install macdown
+brew cask install marked
+brew cask install monodraw
+brew cask install pastebot
+brew cask install postman
+brew cask install slack
+brew cask install soulver
+brew cask install tweetbot
+brew cask install wwdc
+brew cask install zsa-wally
+brew cask install istat-menus
+brew cask install teensy
+brew cask install dropzone
+brew cask install visual-studio-code
