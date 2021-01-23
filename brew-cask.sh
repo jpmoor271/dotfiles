@@ -39,3 +39,4 @@ brew cask install teensy
 brew cask install dropzone
 brew cask install visual-studio-code
 brew cask install homebrew/cask-fonts/font-menlo-for-powerline
+brew case install fork
