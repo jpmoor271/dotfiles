@@ -38,3 +38,11 @@ fish/fish_variables
 
 # random
 shilocation
+
+.vscode/
+
+brew-list.txt
+
+brew.sh-install-list
+
+cask-list.txt
